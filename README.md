@@ -1,16 +1,122 @@
-# React + Vite
+# Dev-Prep
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Dev-Prep is an interactive technical interview preparation platform focused on Development, SQL, and Data Structures & Algorithms.
 
-Currently, two official plugins are available:
+The platform provides structured problems with problem statements, requirements, starter code, and automated test cases. Users can implement solutions directly and receive feedback based on the test results.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Application
 
-## React Compiler
+[Open Dev-Prep](https://devprep-azure.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Overview
 
-## Expanding the Oxlint configuration
+Dev-Prep is designed to provide a practical, exam-style environment for technical placement preparation.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+The platform currently includes three primary sections:
+
+- Development
+- SQL
+- DSA
+
+Each section contains problems organized by difficulty and provides an interactive environment for solving and validating solutions.
+
+## Features
+
+### Development
+
+The Development section focuses on practical frontend programming using:
+
+- HTML
+- CSS
+- JavaScript
+- DOM manipulation
+- Event handling
+- Form validation
+- Dynamic UI updates
+- Interactive components
+
+Problems include tasks such as:
+
+- Font Color Change
+- Image Resizing
+- Counter
+- Form Validation
+- Character Counter
+- Password Visibility Toggle
+- TODO List
+- Digital Clock
+- Registration Form Validation
+- Image Gallery
+- Dynamic Student Table
+- Shopping Cart
+- Search and Filter
+
+### SQL
+
+The SQL section focuses on commonly asked SQL interview concepts and problems.
+
+Topics include:
+
+- SELECT
+- WHERE
+- JOIN
+- GROUP BY
+- Aggregate Functions
+- Sorting
+- Subqueries
+- String Functions
+- Date Functions
+- Advanced Queries
+
+Each SQL problem provides:
+
+- Problem statement
+- Database schema
+- Sample data
+- Requirements
+- SQL editor
+- Test cases
+- Test result feedback
+
+The problem collection is based on common SQL interview patterns, including problems from the LeetCode Top SQL 50 study plan.
+
+### DSA
+
+The DSA section is intended for Data Structures and Algorithms interview preparation.
+
+Planned topics include:
+
+- Arrays
+- Strings
+- Searching
+- Sorting
+- Linked Lists
+- Stacks
+- Queues
+- Trees
+- Graphs
+- Recursion
+- Dynamic Programming
+- Other interview-oriented algorithms
+
+## Automated Testing
+
+Problems include automated test cases to verify whether the submitted implementation satisfies the specified requirements.
+
+Test cases can validate:
+
+- Required elements
+- Required functions
+- User interactions
+- Expected output
+- DOM changes
+- Input validation
+- Dynamic behavior
+
+Example:
+
+```text
+PASS  Counter element exists
+PASS  Increment button exists
+PASS  Initial counter value is 0
+FAIL  Increment button increases value by 1
